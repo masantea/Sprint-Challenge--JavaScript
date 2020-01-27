@@ -21,26 +21,26 @@ const objOne = {
   diet : 'carnivorous',
   weight : '7000 kg', 
   length : '12 m', 
-  period : Late Cretaceous,
+  period : 'Late Cretaceous',
   roar : function(){
     return "RAWERSRARARWERSARARARRRR!"
   }
 }
 
 const objTwo = {
-  name : stegosaurus,
-  diet : herbivorous,
-  weight : 2000 kg, 
-  length : 9 m, 
-  period : Late Jurassic,
+  name : 'stegosaurus',
+  diet : 'herbivorous',
+  weight : '2000 kg', 
+  length : '9 m', 
+  period : 'Late Jurassic',
 }
 
 const objThree = {
-  name : velociraptor,
-  diet : carnivorous,
-  weight : 15 kg, 
-  length : 1.8m, 
-  period : Late Cretaceous,
+  name : 'velociraptor',
+  diet : 'carnivorous',
+  weight : '15 kg', 
+  length : '1.8m', 
+  period : 'Late Cretaceous',
 }
 // How much did tyrannosaurus weigh?
 console.log(objOne.weight);
@@ -78,6 +78,7 @@ const graduates = [
 ];
 
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
+  
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
