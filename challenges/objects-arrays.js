@@ -123,6 +123,7 @@ The zoos want to display both the scientific name and the animal name in front o
 function getNames(zooAnimals){
   const displayNames = [];
   zooAnimals.forEach(zooAnimal => displayNames.push())
+  return displayNames;
 }
 
 console.log(displayNames);
