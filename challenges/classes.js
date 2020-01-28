@@ -7,7 +7,6 @@ class CuboidMaker{
   this.height = height
 }
 
-
 /* == Step 2: Volume Method ==
   Create a method using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
   
@@ -25,7 +24,7 @@ Create another method using CuboidMaker's prototype that returns the surface are
 Formula for cuboid surface area of a cube: 2 * (length * width + length * height + width * height)
 */
 surfaceArea(){ 
-return this.length * this.width + this.length * this.height + this.width * this.height;
+return 2 * (this.length * this.width + this.length * this.height + this.width * this.height);
 }
 
 /* == Step 4: Create a new object that uses CuboidMaker ==

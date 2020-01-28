@@ -45,6 +45,7 @@ function greeting(a, b){
 // Explanation: 
 
 
+
 const external = "I'm outside the function";
 
 function myFunction() {
